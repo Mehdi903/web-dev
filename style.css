@@ -1,6 +1,7 @@
 a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    width: 100%;
     padding-right: 1%;
     display: inline;
     position: relative;
@@ -16,7 +17,6 @@ p {
 }
 
 * {
-    max-width: 100%;
     margin: 0%;
     padding: 0%;
 }
@@ -26,18 +26,17 @@ body {
     background-image: url(785868.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     color: white;
     width: 100%;
-    max-width: 100%;
+    max-width: fit-content;
     display: relative;
 }
 
 .head {
-    max-width: 100%;
+    width: 150%;
     background-color: rgba(105, 102, 102, 0.301);
     display: flex;
-    max-width: 100%;
     position: relative;
 }
 
@@ -101,13 +100,15 @@ body {
 }
 
 .button {
-    position: relative;
+    position: absolute;
+    width: 100%;
     margin-top: 5%;
     margin-left: 5%;
 }
 
 .hire {
     padding: 1%;
+    width: 100%;
     border-radius: 10px;
     background-color: rgba(245, 248, 245, 0.24);
 }
@@ -116,9 +117,11 @@ body {
     margin-left: 4%;
     border: 1px solid rgb(242, 245, 242);
     padding: 1%;
+    width: 100%;
     border-radius: 10px;
 }
 ul li{
+    width: 100%;
     list-style: none;
 }
 a:before {
@@ -131,7 +134,6 @@ a:hover {
     padding: 1%;
     text-align: center;
     width: 100%;
-    max-width: 100%;
     position: relative;
     transition: 600ms;
     font-size: large;
@@ -142,15 +144,14 @@ a:after {
 }
 .fotr{
     background-color: rgba(105, 102, 102, 0.301);
-    display: inline-flex;
+    display: flex;
     position: relative;
-    width: 100%;
+    width: 150%;
     padding: 5%;
     margin-top: 20%;
 }
 .intros{
-    width: 50%;
-    float: left;
+    width: 100%;
     max-width: 30%;
     position: relative;
 
@@ -158,23 +159,21 @@ a:after {
 .intros h2,p{
     margin-top: 2%;
     margin-left: 5%;
-    float: left;
     position: relative;
-    width: 50%;
+    width: 100%;
     
 }
 .contact h2,p{
     margin-top: 2%;
     margin-left: 5%;
-    width: 50%;
-    max-width: 50%;
-    float: left;
+    width: 100%;
+    max-width: 30%;
     position: relative;
 }
 .works h2,p{
     margin-top: 2%;
     margin-left: 5%;
-    width: 50%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 30%;
     position: relative;
 }
