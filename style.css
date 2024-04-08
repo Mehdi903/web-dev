@@ -4,7 +4,6 @@ a {
     width: 100%;
     padding-right: 1%;
     display: inline;
-    position: relative;
 }
 
 p {
@@ -17,28 +16,25 @@ p {
 }
 
 * {
-    margin: 0%;
     padding: 0%;
 }
 
 body {
+    width: 100%;
     background-color: aliceblue;
     background-image: url(785868.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: bottom;
     color: white;
-    width: 100%;
-    max-width: 100%;
-    display: relative;
+    display: table-cell;
 }
 
 .head {
-    width: 200%;
+    width: 150%;
+    margin: 0;
     background-color: rgba(105, 102, 102, 0.301);
-    display: flex;
-    position: fixed;
+    float:left;
+    display: inline-flex;
 }
 
 .nav {
@@ -53,20 +49,28 @@ body {
     width: 100%;
     padding-right: 2%;
     margin-top: 2%;
+    margin-left: 7%;
     max-width: 100%;
     display: block;
 }
-
-.name {
+.name{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     width: 100%;
     position: relative;
     font-size: x-large;
-    float: right;
     max-width: 50%;
-    margin-left: 5%;
     margin-top: 2%;
+}
+.name h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 100%;
+    position: relative;
+    display: inline;
+    margin-left: 7%;
+    font-size: xx-large;
+    max-width: 50%;
 }
 
 .img {
@@ -77,7 +81,7 @@ body {
 
 .intro {
     position: relative;
-    margin-top: 1%;
+    margin-top: 4%;
     max-width: 100%;
 }
 
@@ -148,7 +152,7 @@ a:after {
     background-color: rgba(105, 102, 102, 0.301);
     display: flex;
     position: absolute;
-    width: 200%;
+    width: 140%;
     padding: 5%;
     margin-top: 20%;
 }
