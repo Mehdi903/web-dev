@@ -144,12 +144,13 @@ a:after {
     background-color: rgba(105, 102, 102, 0.301);
     display: inline-flex;
     position: relative;
-    max-width: 100%;
+    width: 100%;
     padding: 5%;
     margin-top: 20%;
 }
 .intros{
     width: 50%;
+    float: left;
     max-width: 30%;
     position: relative;
 
@@ -157,21 +158,23 @@ a:after {
 .intros h2,p{
     margin-top: 2%;
     margin-left: 5%;
+    float: left;
     position: relative;
-    width: 100%;
+    width: 50%;
     
 }
 .contact h2,p{
     margin-top: 2%;
     margin-left: 5%;
-    width: auto;
-    max-width: 30%;
+    width: 50%;
+    max-width: 50%;
+    float: left;
     position: relative;
 }
 .works h2,p{
     margin-top: 2%;
     margin-left: 5%;
-    width: auto;
-    max-width: 30%;
+    width: 50%;
+    max-width: 50%;
     position: relative;
 }
