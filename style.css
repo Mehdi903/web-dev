@@ -26,18 +26,19 @@ body {
     background-image: url(785868.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
+    background-position-x: center;
+    background-position-y: bottom;
     color: white;
     width: 100%;
-    max-width: fit-content;
+    max-width: 100%;
     display: relative;
 }
 
 .head {
-    width: 150%;
+    width: 200%;
     background-color: rgba(105, 102, 102, 0.301);
     display: flex;
-    position: relative;
+    position: fixed;
 }
 
 .nav {
@@ -63,6 +64,7 @@ body {
     position: relative;
     font-size: x-large;
     float: right;
+    max-width: 50%;
     margin-left: 5%;
     margin-top: 2%;
 }
@@ -145,8 +147,8 @@ a:after {
 .fotr{
     background-color: rgba(105, 102, 102, 0.301);
     display: flex;
-    position: relative;
-    width: 150%;
+    position: absolute;
+    width: 200%;
     padding: 5%;
     margin-top: 20%;
 }
